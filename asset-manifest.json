@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BMI_CAL/static/css/main.11b04b43.css",
+    "main.js": "/BMI_CAL/static/js/main.09d69b29.js",
+    "index.html": "/BMI_CAL/index.html",
+    "main.11b04b43.css.map": "/BMI_CAL/static/css/main.11b04b43.css.map",
+    "main.09d69b29.js.map": "/BMI_CAL/static/js/main.09d69b29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11b04b43.css",
+    "static/js/main.09d69b29.js"
+  ]
+}
