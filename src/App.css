@@ -1,0 +1,123 @@
+/* App.css */
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background for the whole page */
+}
+
+/* Container Styling */
+.container {
+  background-color: #ffffff; /* White background for the calculator */
+  padding: 20px; /* Padding around the content */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width: 400px; /* Maximum width */
+  margin: 50px auto; /* Center the container */
+  text-align: center; /* Center the text */
+}
+
+/* Title Styling */
+.center {
+  text-align: center;
+}
+
+h2 {
+  color: #333; /* Dark gray color */
+  font-size: 24px; /* Larger font size */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px; /* Space above the form */
+}
+
+label {
+  display: block; /* Each label on a new line */
+  font-weight: bold; /* Bold text */
+  color: #555; /* Medium gray color */
+  margin-bottom: 10px; /* Space below the label */
+}
+
+input {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the input */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus {
+  border-color: #3498db; /* Blue border when focused */
+}
+
+/* Button Styling */
+.btn {
+  padding: 10px 20px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  border: none; /* No border */
+  color: white; /* White text */
+  background-color: #3498db; /* Blue background */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.btn-outline {
+  background-color: white; /* White background */
+  border: 1px solid #3498db; /* Blue border */
+  color: #3498db; /* Blue text */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn-outline:hover {
+  background-color: #eaf2f8; /* Light blue background on hover */
+}
+
+/* Result Styling */
+.result {
+  margin-top: 30px; /* Space above the result */
+}
+
+.result h3 {
+  color: #333; /* Dark gray */
+  font-size: 20px; /* Font size */
+}
+
+.result p {
+  color: #555; /* Medium gray */
+  font-size: 16px; /* Font size */
+}
+@media only screen and (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .container {
+    padding: 10px;
+  }
+
+  /* Change input fields to take up full width */
+  form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Stack buttons vertically */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Center-align the BMI result and message */
+  .center {
+    text-align: center;
+  }
+}
